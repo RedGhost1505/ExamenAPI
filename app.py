@@ -29,6 +29,56 @@ videojuegos=[{
         'clasificacion': 'E (Everyone)'
          
         }, 
+
+        {
+        
+        'id':3, 
+        'titulo':'Halo', 
+        'desarrollador': 'Bungie',
+        'anio_lanzamiento': 2001,
+        'plataforma':'Xbox',
+        'clasificacion': 'B'
+    
+        },
+
+
+         {
+        
+        'id':4, 
+        'titulo':'Cyberpunk', 
+        'desarrollador': 'CD projekt RED',
+        'anio_lanzamiento': 2020,
+        'plataforma':'Varias',
+        'clasificacion': 'B'
+    
+        },
+
+
+        {
+        
+        'id':5, 
+        'titulo':'Minecraft', 
+        'desarrollador': 'Mojang Studios',
+        'anio_lanzamiento': 2011,
+        'plataforma':'Varias',
+        'clasificacion': 'E (Everyone)'
+    
+        },
+
+
+        {
+        
+        'id':6, 
+        'titulo':'Forza Horizon 5', 
+        'desarrollador': 'Playground Games',
+        'anio_lanzamiento': 2021,
+        'plataforma':'Xbox',
+        'clasificacion': 'E (Everyone)'
+    
+        },
+
+
+
 ]
 
 @app.route("/")
