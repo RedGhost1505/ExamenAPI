@@ -16,7 +16,8 @@ videojuegos=[{
         'desarrollador': 'Nintendo',
         'anio_lanzamiento': 1985,
         'plataforma':'Nintendo Entertainment',
-        'clasificacion': 'E (Everyone)'
+        'clasificacion': 'E (Everyone)',
+        'imagen':'https://www.google.com/url?sa=i&url=https%3A%2F%2Fhipertextual.com%2Ftag%2Fsuper-mario-bros&psig=AOvVaw0vKugVvqnT7rkh9JI9BG2m&ust=1680207069806000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjapp75gf4CFQAAAAAdAAAAABAJ '
         }, 
 
         {
@@ -26,8 +27,8 @@ videojuegos=[{
         'desarrollador': 'Nintendo',
         'anio_lanzamiento': 1986,
         'plataforma':'Nintendo Entertainment',
-        'clasificacion': 'E (Everyone)'
-         
+        'clasificacion': 'E (Everyone)',
+        'imagen':'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fes-mx%2Fstore%2Fproducts%2Fthe-legend-of-zelda-breath-of-the-wild-switch%2F&psig=AOvVaw2Nr50k2-5QhhdnN7Qdmad6&ust=1680207713599000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCEp9H7gf4CFQAAAAAdAAAAABAE'
         }, 
 
         {
@@ -37,7 +38,9 @@ videojuegos=[{
         'desarrollador': 'Bungie',
         'anio_lanzamiento': 2001,
         'plataforma':'Xbox',
-        'clasificacion': 'B'
+        'clasificacion': 'B',
+        'imagen':'https://i.blogs.es/72ace2/halo-infinite-3/840_560.jpeg'
+
     
         },
 
@@ -49,7 +52,8 @@ videojuegos=[{
         'desarrollador': 'CD projekt RED',
         'anio_lanzamiento': 2020,
         'plataforma':'Varias',
-        'clasificacion': 'B'
+        'clasificacion': 'B',
+        'imagen':'https://image.api.playstation.com/vulcan/ap/rnd/202111/3013/cKZ4tKNFj9C00giTzYtH8PF1.png'
     
         },
 
@@ -61,7 +65,8 @@ videojuegos=[{
         'desarrollador': 'Mojang Studios',
         'anio_lanzamiento': 2011,
         'plataforma':'Varias',
-        'clasificacion': 'E (Everyone)'
+        'clasificacion': 'E (Everyone)',
+        'imagen':'https://image.api.playstation.com/vulcan/img/cfn/11307uYG0CXzRuA9aryByTHYrQLFz-HVQ3VVl7aAysxK15HMpqjkAIcC_R5vdfZt52hAXQNHoYhSuoSq_46_MT_tDBcLu49I.png'
     
         },
 
@@ -73,12 +78,10 @@ videojuegos=[{
         'desarrollador': 'Playground Games',
         'anio_lanzamiento': 2021,
         'plataforma':'Xbox',
-        'clasificacion': 'E (Everyone)'
+        'clasificacion': 'E (Everyone)',
+        'imagen':'https://media.vandal.net/m/11-2021/20211131553541_1.jpg'
     
         },
-
-
-
 ]
 
 @app.route("/")
