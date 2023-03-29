@@ -94,7 +94,7 @@ def getVideogames():
 
 #GET 1 Videojuego
 
-@app.route(uri + '<int:id>', methods=['GET'])
+@app.route(uri + '<string:titulo>', methods=['GET'])
 def get_task(id):
     
     game = [key for key in videojuegos if key['id']==id]
