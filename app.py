@@ -120,7 +120,8 @@ def create_videojuego():
         'desarrollador': request.json['desarrollador'],
         'anio_lanzamiento': request.json['anio_lanzamiento'],
         'plataforma': request.json['plataforma'],
-        'clasificacion': request.json['clasificacion']
+        'clasificacion': request.json['clasificacion'],
+        'imagen':request.json['imagen']
     }
 
     videojuegos.append(videojuego)
@@ -148,6 +149,8 @@ def update_juego(id):
             abort(400)
         if 'clasificacion' in request.json and type (request.json['clasificacion']) is not str:
             abort(400)
+        if 'imagen' in request.json and type (request.json['imagen']) is not str:
+            abort(400)
 
 
         this_game[0]['titulo'] = request.json.get ('titulo',this_game[0]['titulo'])
@@ -155,6 +158,7 @@ def update_juego(id):
         this_game[0]['anio_lanzamiento']= request.json.get ('anio_lanzamiento',this_game[0]['anio_lanzamiento'])
         this_game[0]['plataforma']= request.json.get ('plataforma',this_game[0]['plataforma'])
         this_game[0]['clasificacion']= request.json.get ('clasificacion',this_game[0]['clasificacion'])
+        this_game[0]['imagen']= request.json.get ('imagen',this_game[0]['imagen'])
 
         return jsonify ({'Game': this_game[0]}) 
 
