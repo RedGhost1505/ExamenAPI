@@ -17,7 +17,7 @@ videojuegos=[{
         'anio_lanzamiento': 1985,
         'plataforma':'Nintendo Entertainment',
         'clasificacion': 'E (Everyone)',
-        'imagen':'https://www.google.com/url?sa=i&url=https%3A%2F%2Fhipertextual.com%2Ftag%2Fsuper-mario-bros&psig=AOvVaw0vKugVvqnT7rkh9JI9BG2m&ust=1680207069806000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjapp75gf4CFQAAAAAdAAAAABAJ '
+        'imagen':'https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000006411/73d58198e35bf94be752cf3d9ba0b44dea877cab1487e2cc1b7eeb02157f066f'
         }, 
 
         {
@@ -28,7 +28,7 @@ videojuegos=[{
         'anio_lanzamiento': 1986,
         'plataforma':'Nintendo Entertainment',
         'clasificacion': 'E (Everyone)',
-        'imagen':'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fes-mx%2Fstore%2Fproducts%2Fthe-legend-of-zelda-breath-of-the-wild-switch%2F&psig=AOvVaw2Nr50k2-5QhhdnN7Qdmad6&ust=1680207713599000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCEp9H7gf4CFQAAAAAdAAAAABAE'
+        'imagen':'https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000000025/7137262b5a64d921e193653f8aa0b722925abc5680380ca0e18a5cfd91697f58'
         }, 
 
         {
