@@ -98,9 +98,9 @@ def getVideogames():
 #GET 1 Videojuego
 
 @app.route(uri + '<string:titulo>', methods=['GET'])
-def get_task(id):
+def get_task(titulo):
     
-    game = [key for key in videojuegos if key['id']==id]
+    game = [key for key in videojuegos if key['titulo']==titulo]
     if len(game)==0:
         abort(404)
     return jsonify({'Videojuego': game[0]})
