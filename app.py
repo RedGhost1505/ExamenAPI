@@ -17,7 +17,7 @@ videojuegos=[{
         'anio_lanzamiento': 1985,
         'plataforma':'Nintendo Entertainment',
         'clasificacion': 'E (Everyone)',
-        'imagen':'https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000006411/73d58198e35bf94be752cf3d9ba0b44dea877cab1487e2cc1b7eeb02157f066f'
+        'imagen':'https://archive.org/download/super-mario-bros-wallpaper-3840x-2160/New_SMB_U_%283840x2160%29.jpg'
         }, 
 
         {
@@ -28,7 +28,7 @@ videojuegos=[{
         'anio_lanzamiento': 1986,
         'plataforma':'Nintendo Entertainment',
         'clasificacion': 'E (Everyone)',
-        'imagen':'https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000000025/7137262b5a64d921e193653f8aa0b722925abc5680380ca0e18a5cfd91697f58'
+        'imagen':'https://i.pinimg.com/originals/cb/2f/57/cb2f5749aaa6d6c10db7caae8846a336.jpg'
         }, 
 
         {
